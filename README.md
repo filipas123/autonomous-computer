@@ -113,8 +113,8 @@
 After saving changes, reboot and monitor GPU performance and stability.
 
 **References:**  
-- [Motherboard User Manual 💻🖱️](https://download.asrock.com/Manual/GENOA2D24G-2L%2b.pdf)  
-- [BMC Documents 🤖](https://download.asrock.com/Manual/BMC/GENOA2D24G-2L%2b.pdf)
+- [Motherboard User Manual 💻🖱️](https://github.com/AutonomousOfficial/8xGPUs/blob/main/Docs/UM_motherboard.pdf)  
+- [BMC Documents 🤖](Docs/UM_BMC.pdf)
 
 <p align="center">
     <video src="https://github.com/user-attachments/assets/41cd6d5d-9acd-41d6-b9c2-4da4666f3870"></video>
