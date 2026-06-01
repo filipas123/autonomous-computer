@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-    <img src="Photos/8GPU/Preparing/EE/inside-8card.jpg" width="700" style="border-radius: 12px; box-shadow: 0 4px 16px #11F73255;">
+    <img src="photos/8gpu/preparing/ee/inside-8card.jpg" width="700" style="border-radius: 12px; box-shadow: 0 4px 16px #11F73255;">
 </p>
 
 <div align="center">
@@ -53,7 +53,7 @@
             </i></b>
         </td>
         <td align="center" width="45%">
-            <img src="Photos/8GPU/Introduction/EdgeAI-8GPU-1.png" width="420" height="370" style="border-radius: 8px;">
+            <img src="photos/8gpu/introduction/EdgeAI-8GPU-1.png" width="420" height="370" style="border-radius: 8px;">
         </td>
     </tr>
 </table>
@@ -62,14 +62,14 @@
 
 # 🛠️ Preparation &ensp; [🔝](#-table-of-contents)
 
-### 1. [**Electronic & Electrical**](Docs/Prepare_EE.md)
+### 1. [**Electronic & Electrical**](docs/Prepare_EE.md)
 
-### 2. [**Mechanical & Housing**](Docs/Prepare_ME.md)
+### 2. [**Mechanical & Housing**](docs/Prepare_ME.md)
 
 ---
 
 # 🤖 Assembly &ensp; [🔝](#-table-of-contents)
-[See detailed steps](Docs/Assembly.md)
+[See detailed steps](docs/Assembly.md)
 
 ---
 
@@ -114,11 +114,11 @@
 After saving changes, reboot and monitor GPU performance and stability.
 
 **References:**  
-- [Motherboard User Manual 💻🖱️](Docs/UM_motherboard.pdf)  
-- [BMC Documents 🤖](Docs/UM_BMC.pdf)
+- [Motherboard User Manual 💻🖱️](docs/UM_motherboard.pdf)  
+- [BMC Documents 🤖](docs/UM_BMC.pdf)
 
 <p align="center">
-    <video src="https://github.com/user-attachments/assets/41cd6d5d-9acd-41d6-b9c2-4da4666f3870"></video>
+    <video src="https://github.com/user-attachments/assets/41cd6d5d-9acd-41d6-b9c2-4da4666f3870" controls width="700"></video>
 </p>
 
 ---
@@ -130,23 +130,23 @@ Boot with WinPE from USB to verify hardware, or install Linux, NVIDIA drivers, a
 <table>
     <tr>
         <td align="center">
-            <img src="Photos/8GPU/Testing/Nvtop.png" width="700"><br>
+            <img src="photos/8gpu/testing/Nvtop.png" width="700"><br>
         </td>
         <td align="center">
-            <img src="Photos/8GPU/Assembly/40.png" width="400"><br>
+            <img src="photos/8gpu/assembly/40.png" width="400"><br>
         </td>
     </tr>
 </table>
 
 <p align="center">
-    <video src="https://github.com/user-attachments/assets/71afbc5c-ae69-410e-868a-a52b915b1e7a"></video>
+    <video src="https://github.com/user-attachments/assets/71afbc5c-ae69-410e-868a-a52b915b1e7a" controls width="700"></video>
 </p>
 
 ---
 
 # 📦 Bill of Materials (BOM) &ensp; [🔝](#-table-of-contents)
 
-- [𝄜 Bill of Materials](BOM/BOM.md)
+- [𝄜 Bill of Materials](bom/BOM.md)
 
 ---
 
