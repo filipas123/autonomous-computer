@@ -38,6 +38,7 @@
 - [Setup](#-⚙️-setup)
 - [Testing](#-🧪-testing)
 - [BOM](#-📦-bill-of-materials-bom)
+- [Other Builds](#-🖥️-other-builds)
 - [License](#-📝-license)
 
 ---
@@ -146,6 +147,15 @@ Boot with WinPE from USB to verify hardware, or install Linux, NVIDIA drivers, a
 # 📦 Bill of Materials (BOM) &ensp; [🔝](#-table-of-contents)
 
 - [𝄜 Bill of Materials](https://github.com/AutonomousOfficial/8xGPUs/blob/main/BOM/BOM.md)
+
+---
+
+# 🖥️ Other Builds &ensp; [🔝](#-table-of-contents)
+
+| Build | GPUs | Platform | Guide |
+|---|---|---|---|
+| 2× RTX 5090 | 2× NVIDIA RTX 5090 | Intel Xeon W5 + ASUS W790 | [2x-rtx5090/README.md](2x-rtx5090/README.md) |
+| 4× RTX PRO 6000 | 4× Leadtek RTX PRO 6000 Blackwell | AMD EPYC 9124 + ASRock Rack | [4x-rtx-pro-6000/README.md](4x-rtx-pro-6000/README.md) |
 
 ---
 
