@@ -11,13 +11,13 @@
 <div align="center">
 
 <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT">
-<img src="https://img.shields.io/github/stars/AutonomousOfficial/8xGPUs" alt="GitHub stars">
+<img src="https://img.shields.io/github/stars/autonomous-ai/autonomous-computer" alt="GitHub stars">
 <img src="https://img.shields.io/badge/Status-In%20Development-blue" alt="Status">
-<img src="https://img.shields.io/github/downloads/AutonomousOfficial/8xGPUs/total" alt="Downloads">
-<img src="https://img.shields.io/github/v/release/AutonomousOfficial/8xGPUs" alt="Version">
-<img src="https://img.shields.io/github/repo-size/AutonomousOfficial/8xGPUs" alt="Repo Size">
-<img src="https://img.shields.io/github/issues/AutonomousOfficial/8xGPUs" alt="Open Issues">
-<img src="https://img.shields.io/github/issues-pr/AutonomousOfficial/8xGPUs" alt="Open Pull Requests">
+<img src="https://img.shields.io/github/downloads/autonomous-ai/autonomous-computer/total" alt="Downloads">
+<img src="https://img.shields.io/github/v/release/autonomous-ai/autonomous-computer" alt="Version">
+<img src="https://img.shields.io/github/repo-size/autonomous-ai/autonomous-computer" alt="Repo Size">
+<img src="https://img.shields.io/github/issues/autonomous-ai/autonomous-computer" alt="Open Issues">
+<img src="https://img.shields.io/github/issues-pr/autonomous-ai/autonomous-computer" alt="Open Pull Requests">
 
 </div>
 
@@ -62,14 +62,14 @@
 
 # 🛠️ Preparation &ensp; [🔝](#-table-of-contents)
 
-### 1. [**Electronic & Electrical**](https://github.com/AutonomousOfficial/8xGPUs/blob/main/Docs/Prepare_EE.md)
+### 1. [**Electronic & Electrical**](Docs/Prepare_EE.md)
 
-### 2. [**Mechanical & Housing**](https://github.com/AutonomousOfficial/8xGPUs/blob/main/Docs/Prepare_ME.md)
+### 2. [**Mechanical & Housing**](Docs/Prepare_ME.md)
 
 ---
 
 # 🤖 Assembly &ensp; [🔝](#-table-of-contents)
-[See detailed steps](https://github.com/AutonomousOfficial/8xGPUs/blob/main/Docs/Assembly.md)
+[See detailed steps](Docs/Assembly.md)
 
 ---
 
@@ -146,7 +146,7 @@ Boot with WinPE from USB to verify hardware, or install Linux, NVIDIA drivers, a
 
 # 📦 Bill of Materials (BOM) &ensp; [🔝](#-table-of-contents)
 
-- [𝄜 Bill of Materials](https://github.com/AutonomousOfficial/8xGPUs/blob/main/BOM/BOM.md)
+- [𝄜 Bill of Materials](BOM/BOM.md)
 
 ---
 
@@ -175,7 +175,7 @@ Boot with WinPE from USB to verify hardware, or install Linux, NVIDIA drivers, a
 
 # 📝 License &ensp; [🔝](#-table-of-contents)
 
-This project is open source under the [MIT License](https://github.com/AutonomousOfficial/8xGPUs/blob/main/LICENSE).
+This project is open source under the [MIT License](LICENSE).
 
 ---
 

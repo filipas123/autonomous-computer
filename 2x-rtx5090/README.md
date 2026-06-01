@@ -11,13 +11,13 @@
 <div align="center">
 
 <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT">
-<img src="https://img.shields.io/github/stars/AutonomousOfficial/8xGPUs" alt="GitHub stars">
+<img src="https://img.shields.io/github/stars/autonomous-ai/autonomous-computer" alt="GitHub stars">
 <img src="https://img.shields.io/badge/Status-In%20Development-blue" alt="Status">
-<img src="https://img.shields.io/github/downloads/AutonomousOfficial/8xGPUs/total" alt="Downloads">
-<img src="https://img.shields.io/github/v/release/AutonomousOfficial/8xGPUs" alt="Version">
-<img src="https://img.shields.io/github/repo-size/AutonomousOfficial/8xGPUs" alt="Repo Size">
-<img src="https://img.shields.io/github/issues/AutonomousOfficial/8xGPUs" alt="Open Issues">
-<img src="https://img.shields.io/github/issues-pr/AutonomousOfficial/8xGPUs" alt="Open Pull Requests">
+<img src="https://img.shields.io/github/downloads/autonomous-ai/autonomous-computer/total" alt="Downloads">
+<img src="https://img.shields.io/github/v/release/autonomous-ai/autonomous-computer" alt="Version">
+<img src="https://img.shields.io/github/repo-size/autonomous-ai/autonomous-computer" alt="Repo Size">
+<img src="https://img.shields.io/github/issues/autonomous-ai/autonomous-computer" alt="Open Issues">
+<img src="https://img.shields.io/github/issues-pr/autonomous-ai/autonomous-computer" alt="Open Pull Requests">
 
 </div>
 
@@ -61,14 +61,14 @@
 
 # 🛠️ Preparation &ensp; [🔝](#-table-of-contents)
 
-### 1. [**Electronic & Electrical**](https://github.com/autonomous-AI-lab/2xGPUs/blob/main/Docs/Prepare_EE.md)
+### 1. [**Electronic & Electrical**](docs/Prepare_EE.md)
 
-### 2. [**Mechanical & Housing**](https://github.com/autonomous-AI-lab/2xGPUs/tree/main/Step_Models)
+### 2. [**Mechanical & Housing**](step_models/)
 
 ---
 
 # 🤖 Assembly &ensp; [🔝](#-table-of-contents)
-[See detailed steps](https://github.com/autonomous-AI-lab/2xGPUs/blob/main/Docs/Assembly.md)
+[See detailed steps](docs/Assembly.md)
 
 ---
 
@@ -107,8 +107,8 @@
 After saving changes, reboot and monitor GPU performance and stability.
 
 **References:**  
-- [Motherboard User Manual 💻🖱️](https://github.com/autonomous-AI-lab/2xGPUs/blob/main/Docs/UM_Motherboard.pdf)  
-- [BMC Documents 🤖](https://github.com/autonomous-AI-lab/2xGPUs/blob/main/Docs/UM_BIOS.pdf)
+- [Motherboard User Manual 💻🖱️](docs/UM_Motherboard.pdf)  
+- [BMC Documents 🤖](docs/UM_BIOS.pdf)
 
 <p align="center">
     <video src=""></video>
@@ -134,13 +134,13 @@ Boot with WinPE from USB to verify hardware, or install Linux, NVIDIA drivers, a
 
 # 📦 Bill of Materials (BOM) &ensp; [🔝](#-table-of-contents)
 
-- [𝄜 Bill of Materials](https://github.com/autonomous-AI-lab/2xGPUs/blob/main/BOM/BoM.md)
+- [𝄜 Bill of Materials](bom/BoM.md)
 
 ---
 
 # 📝 License &ensp; [🔝](#-table-of-contents)
 
-This project is open source under the [MIT License](https://github.com/autonomous-AI-lab/2xGPUs/blob/main/LICENSE).
+This project is open source under the [MIT License](LICENSE).
 
 ---
 
