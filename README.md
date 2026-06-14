@@ -1,12 +1,12 @@
-<p align="center">
-    <a href="https://git.io/typing-svg">
-        <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&duration=1800&pause=600&color=11F732&background=000000&width=1000&height=110&lines=Welcome+-+where+8%C3%974090Ds+become+your+new+roommate." alt="Typing SVG" />
-    </a>
-</p>
+# Autonomous Computer: Build Your Own Personal AI Computer
 
-<p align="center">
-    <img src="photos/8gpu/preparing/ee/inside-8card.jpg" width="700" style="border-radius: 12px; box-shadow: 0 4px 16px #11F73255;">
-</p>
+
+
+https://github.com/user-attachments/assets/551abf33-336d-4426-9765-87c5528e53cb
+
+
+
+
 
 <div align="center">
 
@@ -25,7 +25,7 @@
 
 <div align="center">
     <b><i>
-        This guide shows you how to build a cutting-edge AI server with 8x GPUs. From hardware selection to software setup, follow each step to create a high-performance platform for deep learning, data science, and GPU-intensive workloads.
+        This guide shows you how to build a Personal AI Computer with 2x / 4x / 8x GPUs. From hardware selection to software setup, follow each step to create a high-performance platform for deep learning, data science, and GPU-intensive workloads.
     </i></b>
 </div>
 
@@ -49,7 +49,7 @@
     <tr>
         <td align="center" width="55%">
             <b><i>
-                This tutorial is for anyone aiming to build a high-performance AI server with 8 GPUs. Whether you're a researcher, developer, or enthusiast, you'll learn everything from hardware selection and assembly to system configuration and initial testing. Finish with a robust platform ready for demanding AI workloads.
+                This tutorial is for anyone aiming to build their own Personal AI Computer with 2x / 4x/ 8x GPUs. Whether you're a researcher, developer, or enthusiast, you'll learn everything from hardware selection and assembly to system configuration and initial testing. Finish with a robust platform ready for demanding AI workloads.
             </i></b>
         </td>
         <td align="center" width="45%">
