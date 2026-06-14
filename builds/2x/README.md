@@ -5,8 +5,10 @@
 </p>
 
 <p align="center">
-    <img src="Photos/8GPU/Preparing/EE/" width="700" style="border-radius: 12px; box-shadow: 0 4px 16px #11F73255;">
+    <img src="photos/2gpu/introduction/introduction.png" width="700" style="border-radius: 12px; box-shadow: 0 4px 16px #11F73255;">
 </p>
+
+<div align="center"><a href="../../README.md">← All builds</a></div>
 
 <div align="center">
 
@@ -25,7 +27,7 @@
 
 <div align="center">
     <b><i>
-        This guide shows you how to build a cutting-edge AI server with 2x GPUs. From hardware selection to software setup, follow each step to create a high-performance platform for deep learning, data science, and GPU-intensive workloads.
+        This guide shows you how to build a Personal AI Computer with 2× RTX 5090 — the Home configuration, the one you can start tonight. From hardware selection to software setup, follow each step to a high-performance platform for running open models locally.
     </i></b>
 </div>
 
@@ -48,7 +50,7 @@
     <tr>
         <td align="center" width="55%">
             <b><i>
-                This tutorial guides you through building a high-performance AI server equipped with two GPUs. Whether you're a researcher, developer, or enthusiast, you'll learn everything from selecting and assembling the right hardware to configuring your system and performing initial tests. By the end, you'll have a powerful platform ready for demanding AI workloads.
+                This tutorial guides you through building a high-performance Personal AI Computer with two GPUs. Whether you're a researcher, developer, or enthusiast, you'll learn everything from selecting and assembling the right hardware to configuring your system and performing initial tests. By the end, you'll have a powerful platform ready for demanding AI workloads.
             </i></b>
         </td>
         <td align="center" width="45%">
@@ -145,5 +147,5 @@ This project is open source under the [MIT License](LICENSE).
 ---
 
 <p align="center">
-  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=1800&pause=1000&color=11F732&width=840&lines=If+this+helped%2C+toss+us+a+%E2%AD%90.+Got+questions%3F+Email+brody%40autonomous.ai" alt="Typing SVG" /></a>
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=1800&pause=1000&color=11F732&width=840&lines=If+this+helped%2C+toss+us+a+%E2%AD%90.+Got+questions%3F+Open+an+issue." alt="Typing SVG" /></a>
 </p>

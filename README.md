@@ -1,179 +1,79 @@
-# Autonomous Computer: Build Your Own Personal AI Computer
+# Autonomous Computer — Build Your Own Personal AI Computer
 
 https://github.com/user-attachments/assets/3e410e5d-83f4-4aed-a8b4-2426781f3ebd
-
-
 
 <div align="center">
 
 <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT">
 <img src="https://img.shields.io/github/stars/autonomous-ai/autonomous-computer" alt="GitHub stars">
+<img src="https://img.shields.io/github/forks/autonomous-ai/autonomous-computer" alt="GitHub forks">
 <img src="https://img.shields.io/badge/Status-In%20Development-blue" alt="Status">
-<img src="https://img.shields.io/github/downloads/autonomous-ai/autonomous-computer/total" alt="Downloads">
-<img src="https://img.shields.io/github/v/release/autonomous-ai/autonomous-computer" alt="Version">
 <img src="https://img.shields.io/github/repo-size/autonomous-ai/autonomous-computer" alt="Repo Size">
 <img src="https://img.shields.io/github/issues/autonomous-ai/autonomous-computer" alt="Open Issues">
-<img src="https://img.shields.io/github/issues-pr/autonomous-ai/autonomous-computer" alt="Open Pull Requests">
 
 </div>
 
 ---
 
 <div align="center">
-    <b><i>
-        This guide shows you how to build a Personal AI Computer with 2x / 4x / 8x GPUs. From hardware selection to software setup, follow each step to create a high-performance platform for deep learning, data science, and GPU-intensive workloads.
-    </i></b>
+<b><i>Own your intelligence.</i></b><br>
+Open-source guides to build a machine that runs open models on hardware <b>no one can switch off</b> — every part, every bracket, every BIOS setting, every assembly photo. Pick the size that fits your budget and your work.
 </div>
 
 ---
 
-## Table of Contents
-- [Introduction](#introduction)
-- [Preparation](#preparation)
-- [Assembly](#assembly)
-- [Setup](#setup)
-- [Testing](#testing)
-- [Bill of Materials](#bill-of-materials)
-- [Other Builds](#other-builds)
-- [License](#license)
+> **Why this exists.** The best models live in someone else's cloud, behind someone else's terms and someone else's government. A model you rent can be cut off overnight. A model running in your own house can't. Build it once; own it for good.
 
----
+## Pick your configuration
 
-## Introduction
+One Personal AI Computer, three configurations — from a home rig to an on-prem business cluster. Each is a complete, self-contained guide: bill of materials, 3D-printable/CNC housing files, wiring, BIOS, and assembly photos.
 
-<table>
-    <tr>
-        <td align="center" width="55%">
-            <b><i>
-                This tutorial is for anyone aiming to build their own Personal AI Computer with 2x / 4x/ 8x GPUs. Whether you're a researcher, developer, or enthusiast, you'll learn everything from hardware selection and assembly to system configuration and initial testing. Finish with a robust platform ready for demanding AI workloads.
-            </i></b>
-        </td>
-        <td align="center" width="45%">
-            <img src="photos/8gpu/introduction/EdgeAI-8GPU-1.png" width="420" height="370" style="border-radius: 8px;">
-        </td>
-    </tr>
-</table>
+| Config | GPUs | VRAM | Best for | Platform | Guide |
+|---|---|---|---|---|---|
+| **2×** | 2× RTX 5090 | 64 GB | **Home** — your first local rig, runs a real model tonight | Intel Xeon W5 · ASUS W790 | [→ 2× config](builds/2x/README.md) |
+| **4×** | 4× RTX PRO 6000 Blackwell | 384 GB | **Team** — big models + agents running all day | AMD EPYC 9124 · ASRock Rack | [→ 4× config](builds/4x/README.md) |
+| **8×** | 8× RTX 4090 / 5090 | 192–256 GB | **On-prem business** — a company's AI on its own floor; IP and data never leave | Dual AMD EPYC 9004 (Genoa) | [→ 8× config](builds/8x/README.md) |
 
----
+## What it can run
 
-## Preparation
+VRAM is the constraint that decides which open models fit. Rough guide (exact fit depends on quantization — model specifics live in [`/software`](software/README.md)):
 
-### 1. [Electronic & Electrical](docs/Prepare_EE.md)
+| Build | VRAM | Open models it can serve (e.g.) |
+|---|---|---|
+| 2× RTX 5090 | 64 GB | Llama 70B / Qwen 72B (quantized), 30B-class at full precision, coding + agent models |
+| 4× RTX PRO 6000 | 384 GB | DeepSeek-V3 / R1, Qwen 235B, Llama 405B (quantized) — frontier-class open weights |
+| 8× RTX 4090/5090 | 192–256 GB | Multiple large models served at once, plus headroom for fine-tuning |
 
-### 2. [Mechanical & Housing](docs/Prepare_ME.md)
+## Quick start
 
----
+1. **Pick a configuration** above by budget and the models you want to run.
+2. **Source the parts** from that config's Bill of Materials.
+3. **Make the housing** — print the STL files or CNC the STEP files in that config's folder.
+4. **Assemble** — follow the config's photo-by-photo assembly guide.
+5. **Set up the software** — drivers, BIOS, and serving open models locally: [`/software`](software/README.md).
+6. **Run your intelligence** — point your agent at `localhost` and never get cut off again.
 
-## Assembly
+## The configurations
 
-[See detailed steps](docs/Assembly.md)
+- [**2× — Home**](builds/2x/README.md) · 2× RTX 5090, 64 GB
+- [**4× — Team**](builds/4x/README.md) · 4× RTX PRO 6000 Blackwell, 384 GB
+- [**8× — On-prem business**](builds/8x/README.md) · 8× RTX 4090/5090, 192–256 GB
 
----
+## Software
 
-## Setup
+Bringing the box to life — OS, NVIDIA drivers, BIOS tuning, serving open models (Ollama / vLLM / llama.cpp), and connecting an agent: [**`/software`**](software/README.md). *(Setup and testing are documented today; local model-serving guides are in progress.)*
 
-### BIOS Optimization for GPU Performance
+## Contributing
 
-> **Tip:** The default BIOS settings may not deliver optimal performance for multi-GPU workloads. Adjust these parameters for best results:
-
-- **PCIe Settings** ![Static Badge](https://img.shields.io/badge/Important-8A2BE2)<br>
-    Set all PCIe slots to the highest supported speed (Gen4/Gen5) and configure bifurcation for your GPUs.<br>
-    ```
-    Advanced -> Chipset Configuration -> PCIE link width -> set MCIO2/1, MCIO4/3, MCIO6/5, MCIO8/7, MCIO12/11, MCIO14/13, MCIO16/15, MCIO18/17 to x16
-    ```
-
-- **Above 4G Decoding** ![Static Badge](https://img.shields.io/badge/Important-8A2BE2)<br>
-    Enable "Above 4G Decoding" to address large GPU memory.<br>
-    ```
-    May be enabled by default
-    ```
-
-- **Resizable BAR** ![Static Badge](https://img.shields.io/badge/Important-8A2BE2)<br>
-    Activate "Resizable BAR" for improved CPU-GPU data transfer.<br>
-    ```
-    Advanced -> PCI Subsystems Settings -> Enable Re-size BAR support
-    ```
-
-- **Power Management**<br>
-    Disable unnecessary power-saving features (C-states, ASPM) that may throttle GPU performance.<br>
-    `Optional`
-
-- **Memory Configuration**<br>
-    Set RAM to rated speed and enable XMP/DOCP profiles for max bandwidth.<br>
-    `Optional`
-
-- **Fan and Thermal Controls**<br>
-    Adjust fan curves and thermal limits for optimal cooling.<br>
-    `Optional`
-
-After saving changes, reboot and monitor GPU performance and stability.
-
-**References:**
-- [Motherboard User Manual](docs/UM_motherboard.pdf)
-- [BMC Documents](docs/UM_BMC.pdf)
-
-<p align="center">
-    <!-- Upload How-to-set-up-BIOS.mp4 to this repo and replace this line with the video tag -->
-</p>
-
----
-
-## Testing
-
-Boot with WinPE from USB to verify hardware, or install Linux, NVIDIA drivers, and check with `nvtop`. Once confirmed, install your OS and start your AI work.
-
-<table>
-    <tr>
-        <td align="center">
-            <img src="photos/8gpu/testing/Nvtop.png" width="700"><br>
-        </td>
-        <td align="center">
-            <img src="photos/8gpu/assembly/40.png" width="400"><br>
-        </td>
-    </tr>
-</table>
-
-<p align="center">
-    <!-- Upload Booting.mp4 to this repo and replace this line with the video tag -->
-</p>
-
----
-
-## Bill of Materials
-
-- [Bill of Materials](bom/BOM.md)
-
----
-
-## Other Builds
-
-<table>
-    <tr>
-        <td align="center" width="50%">
-            <a href="2x-rtx5090/README.md">
-                <img src="2x-rtx5090/photos/2gpu/introduction/introduction.png" width="420" style="border-radius: 8px;">
-            </a>
-            <br><b>2× RTX 5090</b> — Intel Xeon W5 + ASUS W790<br>
-            <a href="2x-rtx5090/README.md">View Build Guide →</a>
-        </td>
-        <td align="center" width="50%">
-            <a href="4x-rtx-pro-6000/README.md">
-                <img src="4x-rtx-pro-6000/photos/4gpu/introduction/rack1.jpg" width="420" style="border-radius: 8px;">
-            </a>
-            <br><b>4× RTX PRO 6000 Blackwell</b> — AMD EPYC 9124 + ASRock Rack<br>
-            <a href="4x-rtx-pro-6000/README.md">View Build Guide →</a>
-        </td>
-    </tr>
-</table>
-
----
+Built one? Improved a part? Found a better component? See [**CONTRIBUTING.md**](CONTRIBUTING.md) — and [share your build](https://github.com/autonomous-ai/autonomous-computer/issues/new?template=share-your-build.md). The best community builds get featured.
 
 ## License
 
-This project is open source under the [MIT License](LICENSE).
+Open source under the [MIT License](LICENSE). Fork it, change it, build your own and sell it — we just want it built.
 
 ---
 
-<p align="center">
-  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=1800&pause=1000&color=11F732&width=840&lines=If+this+helped%2C+toss+us+a+%E2%AD%90.+Got+questions%3F+Email+brody%40autonomous.ai" alt="Typing SVG" /></a>
-</p>
+<div align="center">
+<b>Autonomous</b> — the AI hardware company.<br>
+Questions? <a href="https://github.com/autonomous-ai/autonomous-computer/issues">Open an issue.</a>
+</div>
