@@ -17,12 +17,8 @@ https://github.com/user-attachments/assets/3e410e5d-83f4-4aed-a8b4-2426781f3ebd
 
 <div align="center">
 <b><i>Own your intelligence.</i></b><br>
-Open-source guides to build a machine that runs open models on hardware <b>no one can switch off</b> — every part, every bracket, every BIOS setting, every assembly photo. Pick the size that fits your budget and your work.
+The best models live in someone else's cloud, behind someone else's terms and someone else's government — a model you rent can be cut off overnight; a model in your own house can't. These are open-source guides to build that machine: every part, every bracket, every BIOS setting, every assembly photo. Pick the size that fits your budget and your work. <b>Build it once; own it for good.</b>
 </div>
-
----
-
-> **Why this exists.** The best models live in someone else's cloud, behind someone else's terms and someone else's government. A model you rent can be cut off overnight. A model running in your own house can't. Build it once; own it for good.
 
 ## Pick your configuration
 
@@ -33,16 +29,6 @@ One Personal AI Computer, three configurations — from a home rig to an on-prem
 | **2×** | 2× RTX 5090 | 64 GB | **Home** — your first local rig, runs a real model tonight | Intel Xeon W5 · ASUS W790 | [→ 2× config](builds/2x/README.md) |
 | **4×** | 4× RTX PRO 6000 Blackwell | 384 GB | **Team** — big models + agents running all day | AMD EPYC 9124 · ASRock Rack | [→ 4× config](builds/4x/README.md) |
 | **8×** | 8× RTX 4090 / 5090 | 192–256 GB | **On-prem business** — a company's AI on its own floor; IP and data never leave | Dual AMD EPYC 9004 (Genoa) | [→ 8× config](builds/8x/README.md) |
-
-## What it can run
-
-VRAM is the constraint that decides which open models fit. Rough guide (exact fit depends on quantization — model specifics live in [`/software`](software/README.md)):
-
-| Build | VRAM | Open models it can serve (e.g.) |
-|---|---|---|
-| 2× RTX 5090 | 64 GB | Llama 70B / Qwen 72B (quantized), 30B-class at full precision, coding + agent models |
-| 4× RTX PRO 6000 | 384 GB | DeepSeek-V3 / R1, Qwen 235B, Llama 405B (quantized) — frontier-class open weights |
-| 8× RTX 4090/5090 | 192–256 GB | Multiple large models served at once, plus headroom for fine-tuning |
 
 ## Quick start
 
