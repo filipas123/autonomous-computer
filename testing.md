@@ -17,7 +17,7 @@ Confirm:
 - [ ] PCIe link width/speed is what you set in BIOS (no cards dropped to x1/x4).
 - [ ] Temperatures and power draw are sane at idle and under load.
 
-Once confirmed, install your working OS and start running models — see [run-models.md](run-models.md).
+Once confirmed, install your working OS and put the box to work — [**Grid**](https://github.com/autonomous-ai/autonomous-grid) serves your models behind one endpoint.
 
 ## Reference
 
