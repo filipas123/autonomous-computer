@@ -20,30 +20,35 @@ https://github.com/user-attachments/assets/3e410e5d-83f4-4aed-a8b4-2426781f3ebd
 The best models live in someone else's cloud, behind someone else's terms and someone else's government — a model you rent can be cut off overnight; a model in your own house can't. These are open-source guides to build that machine: every part, every bracket, every BIOS setting, every assembly photo. Pick the size that fits your budget and your work. <b>Build it once; own it for good.</b>
 </div>
 
-## Pick your configuration
+## Pick your build
 
-One Personal AI Computer, three configurations — from a home rig to an on-prem business cluster. Each is a complete, self-contained guide: bill of materials, 3D-printable/CNC housing files, wiring, BIOS, and assembly photos.
+<table>
+<tr>
+<td align="center" width="33%">
+<a href="builds/2x/README.md"><img src="builds/2x/photos/2gpu/introduction/introduction.png" alt="The 2× build" width="280"></a><br><br>
+<a href="builds/2x/README.md"><b>2× — Home</b></a>
+</td>
+<td align="center" width="33%">
+<a href="builds/4x/README.md"><img src="builds/4x/photos/4gpu/introduction/rack2.jpg" alt="The 4× build" width="280"></a><br><br>
+<a href="builds/4x/README.md"><b>4× — Team</b></a>
+</td>
+<td align="center" width="33%">
+<a href="builds/8x/README.md"><img src="builds/8x/photos/8gpu/introduction/EdgeAI-8GPU-1.png" alt="The 8× build" width="280"></a><br><br>
+<a href="builds/8x/README.md"><b>8× — On-prem business</b></a>
+</td>
+</tr>
+</table>
 
-| Config | GPUs | VRAM | Best for | Platform | Guide |
-|---|---|---|---|---|---|
-| **2×** | 2× RTX 5090 | 64 GB | **Home** — your first local rig, runs a real model tonight | Intel Xeon W5 · ASUS W790 | [→ 2× config](builds/2x/README.md) |
-| **4×** | 4× RTX PRO 6000 Blackwell | 384 GB | **Team** — big models + agents running all day | AMD EPYC 9124 · ASRock Rack | [→ 4× config](builds/4x/README.md) |
-| **8×** | 8× RTX 4090 / 5090 | 192–256 GB | **On-prem business** — a company's AI on its own floor; IP and data never leave | Dual AMD EPYC 9004 (Genoa) | [→ 8× config](builds/8x/README.md) |
+Each is a complete, self-contained guide: bill of materials, housing files, wiring, BIOS, and assembly photos.
 
 ## Quick start
 
-1. **Pick a configuration** above by budget and the models you want to run.
-2. **Source the parts** from that config's Bill of Materials.
-3. **Make the housing** — print the STL files or CNC the STEP files in that config's folder.
-4. **Assemble** — follow the config's photo-by-photo assembly guide.
+1. **Pick a build** above by budget and the models you want to run.
+2. **Source the parts** from that build's Bill of Materials.
+3. **Make the housing** — print the STL files or CNC the STEP files in that build's folder.
+4. **Assemble** — follow the build's photo-by-photo assembly guide.
 5. **Set up the software** — drivers, BIOS, and serving open models locally: [`/software`](software/README.md).
 6. **Run your intelligence** — point your agent at `localhost` and never get cut off again. Running more than one machine? [**Grid**](https://github.com/autonomous-ai/autonomous-grid) gives them all one endpoint.
-
-## The configurations
-
-- [**2× — Home**](builds/2x/README.md) · 2× RTX 5090, 64 GB
-- [**4× — Team**](builds/4x/README.md) · 4× RTX PRO 6000 Blackwell, 384 GB
-- [**8× — On-prem business**](builds/8x/README.md) · 8× RTX 4090/5090, 192–256 GB
 
 ## Software
 
