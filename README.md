@@ -1,24 +1,8 @@
-# Autonomous Computer — Build Your Own Personal AI Computer
+# Build your own Personal AI Computer
+
+The best models live in someone else's cloud, behind someone else's terms and someone else's government — a model you rent can be cut off overnight; a model in your own house can't. These are open-source guides to build that machine: every part, every bracket, every BIOS setting, every assembly photo. Pick the size that fits your budget and your work. **Build it once; own it for good.**
 
 https://github.com/user-attachments/assets/3e410e5d-83f4-4aed-a8b4-2426781f3ebd
-
-<div align="center">
-
-<img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT">
-<img src="https://img.shields.io/github/stars/autonomous-ai/autonomous-computer" alt="GitHub stars">
-<img src="https://img.shields.io/github/forks/autonomous-ai/autonomous-computer" alt="GitHub forks">
-<img src="https://img.shields.io/badge/Status-In%20Development-blue" alt="Status">
-<img src="https://img.shields.io/github/repo-size/autonomous-ai/autonomous-computer" alt="Repo Size">
-<img src="https://img.shields.io/github/issues/autonomous-ai/autonomous-computer" alt="Open Issues">
-
-</div>
-
----
-
-<div align="center">
-<b><i>Own your intelligence.</i></b><br>
-The best models live in someone else's cloud, behind someone else's terms and someone else's government — a model you rent can be cut off overnight; a model in your own house can't. These are open-source guides to build that machine: every part, every bracket, every BIOS setting, every assembly photo. Pick the size that fits your budget and your work. <b>Build it once; own it for good.</b>
-</div>
 
 ## Pick your build
 
