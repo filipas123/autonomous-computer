@@ -6,10 +6,10 @@ https://github.com/user-attachments/assets/3e410e5d-83f4-4aed-a8b4-2426781f3ebd
 
 ## Quick start
 
-1. **Pick a build** below by budget and the models you want to run.
-2. **Source the parts** from that build's Bill of Materials.
-3. **Make the housing** — print the STL files or CNC the STEP files in that build's folder.
-4. **Assemble** — follow the build's photo-by-photo assembly guide.
+1. **Pick a build** below by budget and the models you want to run — [2×](2x/README.md) · [4×](4x/README.md) · [8×](8x/README.md).
+2. **Source the parts** from that build's Bill of Materials — [2×](2x/bom/BoM.md) · [4×](4x/bom/bom.md) · [8×](8x/bom/BOM.md).
+3. **Make the housing** — print the STL files or CNC the STEP files — [2×](2x/stl-models) · [8×](8x/stl-models).
+4. **Assemble** — follow the photo-by-photo assembly guide — [2×](2x/docs/Assembly.md) · [4×](4x/docs/assembly.md) · [8×](8x/docs/Assembly.md).
 5. **Software** — [BIOS setup](setup.md), [GPU testing](testing.md), and [Grid](https://github.com/autonomous-ai/autonomous-grid).
 
 ## Hardware: Pick your build
