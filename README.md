@@ -10,8 +10,7 @@ https://github.com/user-attachments/assets/3e410e5d-83f4-4aed-a8b4-2426781f3ebd
 2. **Source the parts** from that build's Bill of Materials.
 3. **Make the housing** — print the STL files or CNC the STEP files in that build's folder.
 4. **Assemble** — follow the build's photo-by-photo assembly guide.
-5. **Set up the software** — [setup](setup.md), [testing](testing.md), then [Grid](https://github.com/autonomous-ai/autonomous-grid).
-6. **Run your intelligence** — point your agent at `localhost` and never get cut off again. Running more than one machine? [**Grid**](https://github.com/autonomous-ai/autonomous-grid) gives them all one endpoint.
+5. **Run your intelligence** — [setup](setup.md), [testing](testing.md), then [Grid](https://github.com/autonomous-ai/autonomous-grid): point your agent at your own machines and never get cut off again.
 
 ## Hardware: Pick your build
 
