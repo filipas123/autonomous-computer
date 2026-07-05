@@ -1,16 +1,16 @@
-# 2× 5090 — The Home build
+# 2× NVIDIA RTX 5090 — the Home build
 
 <div align="center"><a href="../README.md">← All builds</a></div>
 
-<p align="center">
-    <img src="photos/2gpu/introduction/introduction.png" width="700">
-</p>
+<img src="photos/gallery/hero.webp" alt="The 2× 5090 build — two RTX 5090s on the open frame">
 
-Two RTX 5090s on an Intel Xeon W platform, in a housing you print or CNC yourself. This is the build you can start tonight: desk-sized, runs on a normal wall outlet, and big enough for serious local models.
+The entry-level Personal AI Computer: two RTX 5090s on an Intel Xeon W platform, in a housing you print or CNC yourself. Desk-sized, runs on a normal wall outlet, and enough VRAM for Llama, Qwen, and DeepSeek with quantization — run OpenClaw, Hermes Agent, or your own LangChain stack with zero API spend.
 
-| GPUs | VRAM | Platform | Memory | Power |
-|:---|:---|:---|:---|:---|
-| 2× NVIDIA RTX 5090 | 64 GB | Intel Xeon W5 on ASUS W790 ACE | 4× DDR5 | 1× 1600 W PSU |
+- **2× NVIDIA RTX 5090** — 64 GB VRAM · 3,584 GB/s · 419 FP32 TFLOPS
+- **Intel Xeon W5** (ASUS W790 ACE) · 96 GB RAM · 1 TB NVMe
+- **PCIe Gen 5 ×16** per GPU · 10 GbE + 2.5 GbE
+- **1,550 W draw** · 1,600 W PSU
+- **12.5″ × 12.5″ × 16″** · 33 lb
 
 ## Build it
 
@@ -19,6 +19,17 @@ Two RTX 5090s on an Intel Xeon W platform, in a housing you print or CNC yoursel
 3. **Lay out the electronics** — the [component checklist](docs/prepare-ee.md), with a photo of every part.
 4. **Assemble** — the [photo-by-photo assembly guide](docs/assembly.md), 23 steps from bare housing to closed box.
 5. **BIOS, drivers, testing** — the shared [BIOS tuning and GPU testing](../setup.md) guide. Board-specific notes below.
+
+<table>
+<tr>
+<td width="50%"><img src="photos/gallery/riser-detail.webp" alt="Seating the PCIe riser"></td>
+<td width="50%"><img src="photos/gallery/riser-frame.webp" alt="Mounting the PCIe 5.0 risers"></td>
+</tr>
+<tr>
+<td width="50%"><img src="photos/gallery/fan-tray.webp" alt="The fan tray"></td>
+<td width="50%"><img src="photos/gallery/side-panel.webp" alt="Closing the side panel"></td>
+</tr>
+</table>
 
 ## BIOS notes for this board
 
@@ -36,8 +47,12 @@ Board references: [motherboard manual](docs/um-motherboard.pdf) · [BIOS manual]
 Both cards detected, full VRAM, full PCIe width — the checklist is in [the setup guide](../setup.md#gpu-testing).
 
 <p align="center">
-    <img src="photos/2gpu/testing/nvidia-smi.png" width="700">
+    <img src="photos/2gpu/testing/nvidia-smi.png" width="700" alt="nvidia-smi with both RTX 5090s detected">
 </p>
+
+## The finished machine
+
+<img src="photos/gallery/finished.webp" alt="The finished 2× 5090 on a desk">
 
 ## Other builds
 
