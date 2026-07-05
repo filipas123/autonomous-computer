@@ -29,6 +29,8 @@ The entry-level build, for personal use. Enough for Llama, Qwen, and DeepSeek wi
 - **1,550 W draw** · 1,600 W PSU
 - **12.5″ × 12.5″ × 16″** · 33 lb
 
+**[Build the 2× 5090 →](2x-5090/README.md)**
+
 <a href="2x-5090/README.md"><img src="2x-5090/photos/gallery/hero.webp" alt="The 2× 5090 build — two RTX 5090s on the open frame"></a>
 
 <table>
@@ -44,7 +46,6 @@ The entry-level build, for personal use. Enough for Llama, Qwen, and DeepSeek wi
 
 <img src="2x-5090/photos/gallery/finished.webp" alt="The finished 2× 5090">
 
-**[Build the 2× 5090 →](2x-5090/README.md)**
 
 ## 4× NVIDIA RTX 5090
 
@@ -55,6 +56,8 @@ The team build. Larger open models like Kimi, MiniMax, and GLM. No API bills. Lo
 - **PCIe Gen 5 ×16** per GPU · 2× 10 GbE · BMC
 - **2,750 W draw** · 4,000 W PSU
 - **15.5″ × 15.5″ × 16″** · 66 lb · dual-chamber airflow — intake below, GPUs above
+
+**[See the 4× 5090 →](4x-5090/README.md)**
 
 <a href="4x-5090/README.md"><img src="4x-5090/photos/gallery/hero.webp" alt="The 4× 5090 build — airflow through the dual-chamber housing"></a>
 
@@ -71,7 +74,6 @@ The team build. Larger open models like Kimi, MiniMax, and GLM. No API bills. Lo
 
 <img src="4x-5090/photos/gallery/finished.webp" alt="The finished 4× 5090">
 
-**[See the 4× 5090 →](4x-5090/README.md)**
 
 ## 8× NVIDIA RTX 5090
 
@@ -82,6 +84,8 @@ The on-prem build, for business. Develop, serve, and fine-tune with open models 
 - **PCIe Gen 5 ×16** per GPU, over MCIO · 2× 1 GbE · BMC
 - **5,100 W draw** · 8,000 W PSU
 - **15.5″ × 15.5″ × 24″** · 110 lb · CNC-milled anodized aluminum housing
+
+**[Build the 8× 5090 →](8x-5090/README.md)**
 
 <a href="8x-5090/README.md"><img src="8x-5090/photos/gallery/hero.webp" alt="The 8× 5090 build — eight GPUs in the anodized aluminum housing"></a>
 
@@ -98,7 +102,6 @@ The on-prem build, for business. Develop, serve, and fine-tune with open models 
 
 <img src="8x-5090/photos/gallery/finished.webp" alt="The finished 8× 5090">
 
-**[Build the 8× 5090 →](8x-5090/README.md)**
 
 ## 4× NVIDIA RTX PRO 6000
 
@@ -110,9 +113,22 @@ The workstation build. Fine-tune and serve the biggest open models at full preci
 - **3× 2,000 W** CRPS
 - **5U rack chassis** — off the shelf, no CNC work
 
-<a href="4x-6000/README.md"><img src="4x-6000/build-4x.jpg" alt="The 4× 6000 build — four RTX PRO 6000 Blackwell in the 5U chassis"></a>
-
 **[Build the 4× 6000 →](4x-6000/README.md)**
+
+<a href="4x-6000/README.md"><img src="4x-6000/photos/gallery/hero-rack.jpg" alt="The 4× 6000 build racked — 5U chassis in the server rack"></a>
+
+<table>
+<tr>
+<td width="50%"><img src="4x-6000/photos/gallery/gpu-install.jpg" alt="Installing the RTX PRO 6000s"></td>
+<td width="50%"><img src="4x-6000/photos/gallery/gpu-row.jpg" alt="Four blower GPUs over the airflow modules"></td>
+</tr>
+<tr>
+<td width="50%"><img src="4x-6000/photos/gallery/interior.jpg" alt="Full chassis interior — GPUs, fan wall, dual-SP5 board"></td>
+<td width="50%"><img src="4x-6000/photos/gallery/mcio-risers.jpg" alt="MCIO riser boards before the GPUs go in"></td>
+</tr>
+</table>
+
+<img src="4x-6000/photos/gallery/power-detail.jpg" alt="GPU power cabling detail">
 
 ## Software
 
@@ -125,6 +141,8 @@ The workstation build. Fine-tune and serve the biggest open models at full preci
    ```bash
    curl -fsSL https://grid.autonomous.ai/install.sh | bash
    ```
+
+   <a href="https://github.com/autonomous-ai/autonomous-grid"><img src="https://raw.githubusercontent.com/autonomous-ai/autonomous-grid/main/docs/home-grid.png" alt="Grid — every machine you own behind one endpoint"></a>
 
 ## Contributing
 
