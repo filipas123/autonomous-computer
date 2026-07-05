@@ -1,4 +1,4 @@
-# 4× 6000 — The Workstation build
+# 4× NVIDIA RTX PRO 6000 — the Server build
 
 <div align="center"><a href="../README.md">← All builds</a></div>
 
