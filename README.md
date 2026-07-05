@@ -5,15 +5,15 @@ https://github.com/user-attachments/assets/36f7aa02-42ac-4b35-b757-a5dd3b43ef1a
 **The future of AI is local.** Three reasons:
 
 1. **No one can switch you off.** In June 2026 the US government took Fable 5 offline for most of a month and gated GPT-5.6 behind an approved-partner list. Weights on your own disk can't be revoked.
-2. **Your edge stays yours.** Every prompt you send a frontier API carries your product, your process, your edge. Own the means of production.
-3. **It's 20–30× cheaper.** A workload that costs ~$105K/month on a frontier API runs for ~$3–5K on open weights. On your own machine: electricity.
+2. **Your business is their training data.** Every prompt you send OpenAI or Anthropic carries your product, your process, your edge. They will turn your secret sauce into their product.
+3. **Inference becomes free.** Open weights on a cloud API already cut the bill 20–30×. On your own machine there is no bill at all. No API, no meter — electricity.
 
-That's why we open-sourced the whole stack:
+We built the whole stack, hardware and software, the way Apple does. Then we did what Apple never would — open-sourced it:
 
-- **Hardware — this repo.** Build your own Personal AI Computer in three sizes: every part, every bracket, every BIOS setting, every assembly photo.
-- **Software — [Grid](https://github.com/autonomous-ai/autonomous-grid).** Pools your machines behind one OpenAI-compatible endpoint and routes each request to the right model.
+- **Hardware — this repo.** Your Personal AI Computer in three sizes: every part, every bracket, every BIOS setting, every assembly photo.
+- **Software — your choice.** Run any local AI framework — vLLM, Ollama, llama.cpp — or run [Grid](https://github.com/autonomous-ai/autonomous-grid), ours: every machine you own behind one OpenAI-compatible endpoint.
 
-**Build it once; own it for good.**
+**Own the means of production.**
 
 ## Quick start
 
