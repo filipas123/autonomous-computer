@@ -1,6 +1,6 @@
 # 4× NVIDIA RTX PRO 6000
 
-<img src="photos/gallery/hero-rack.jpg" alt="The 4× 6000 build racked — 5U chassis in the server rack">
+<img src="photos/gallery/power-detail.jpg" alt="GPU power cabling detail on the 4× 6000">
 
 The server build — rack-ready for on-prem and the data center: four RTX PRO 6000 Blackwell GPUs on an AMD EPYC platform in a 5U chassis. 384 GB of VRAM: fine-tune and serve the biggest open models to a whole team.
 
@@ -58,7 +58,7 @@ curl -fsSL https://grid.autonomous.ai/install.sh | bash
 
 ## The finished machine
 
-<img src="photos/gallery/power-detail.jpg" alt="GPU power cabling detail on the 4× 6000">
+<img src="photos/gallery/hero-rack.jpg" alt="The 4× 6000 build racked — 5U chassis in the server rack">
 
 ## Discussion
 
