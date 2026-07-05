@@ -8,7 +8,7 @@ The models got good. The GPUs got affordable. The only question left is where th
 2. **Your business is their training data.** Every prompt you send OpenAI or Anthropic carries your product, your process, your edge. They will turn your secret sauce into their product.
 3. **Inference becomes free.** Open weights on a cloud API already cut the bill 20–30×. On your own machine there is no bill at all. No API, no meter.
 
-## The whole local AI stack
+## The end-to-end open-source local AI stack
 
 Open software on closed hardware is half an answer — you still can't see, fix, or rebuild the box it runs on, so you're still renting, one layer down. Local AI is only truly yours when the whole stack is open, metal included. So we open-sourced both halves:
 
