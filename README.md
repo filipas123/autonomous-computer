@@ -17,7 +17,7 @@ We built the whole stack, hardware and software, designed together. Then we open
 
 1. **Pick a build** below by budget and the models you want to run — [2×](2x/README.md) · [4×](4x/README.md) · [8×](8x/README.md).
 2. **Source the parts** from that build's Bill of Materials — [2×](2x/bom/bom.md) · [4×](4x/bom/bom.md) · [8×](8x/bom/bom.md).
-3. **Make the housing** — print the STL files or CNC the STEP files — [2×](2x/stl-models) · [8×](8x/step_models). (The 4× uses an off-the-shelf 5U chassis.)
+3. **Make the housing** — print the STL files or CNC the STEP files — [2×](2x/stl-models) · 4× · [8×](8x/step_models).
 4. **Assemble** — follow the photo-by-photo assembly guide — [2×](2x/docs/assembly.md) · [4×](4x/docs/assembly.md) · [8×](8x/docs/assembly.md).
 5. **Software** — [BIOS setup](setup.md), [GPU testing](testing.md), and [Grid](https://github.com/autonomous-ai/autonomous-grid).
 
