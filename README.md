@@ -136,7 +136,7 @@ The workstation build — rack-ready for on-prem and the data center. 384 GB of 
 
 <img width="2560" height="1441" alt="gpu-testing" src="https://github.com/user-attachments/assets/b54b63bc-4f43-465d-894f-4c8dc9c61a08" />
 
-2. **[Run Grid](https://github.com/autonomous-ai/autonomous-grid)** — Grid is our open-source orchestration layer for local AI: it pools the computers you already own — this rig, your Mac, the workstation in the corner — behind **one OpenAI-compatible endpoint** and routes each request to whichever machine is running the right model, on your local network or remotely.
+2. **Serve your models** — the rig runs, now put it to work. Install any open-source local AI engine — vLLM, Ollama, llama.cpp — or [Grid](https://github.com/autonomous-ai/autonomous-grid), ours: it pools your machines behind one OpenAI-compatible endpoint.
 
    ```bash
    curl -fsSL https://grid.autonomous.ai/install.sh | bash
