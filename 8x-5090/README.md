@@ -1,4 +1,4 @@
-# 8× — The On-prem Business build
+# 8× 5090 — The On-prem Business build
 
 <div align="center"><a href="../README.md">← All builds</a></div>
 
@@ -49,7 +49,7 @@ All eight cards detected, full VRAM, full PCIe width — the checklist is in [th
 
 ## Other builds
 
-Smaller footprint? The [2× Home build](../2x/README.md) (2× RTX 5090, start tonight) and the [4× Team build](../4x/README.md) (4× RTX PRO 6000 Blackwell, 384 GB VRAM) use the same playbook.
+Smaller footprint? The [2× 5090](../2x-5090/README.md) (start tonight), the [4× 5090](../4x-5090/README.md), and the [4× 6000](../4x-6000/README.md) (384 GB VRAM, full precision) use the same playbook.
 
 ## License
 

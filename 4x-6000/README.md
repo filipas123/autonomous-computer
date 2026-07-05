@@ -1,4 +1,4 @@
-# 4× — The Team build
+# 4× 6000 — The Workstation build
 
 <div align="center"><a href="../README.md">← All builds</a></div>
 
@@ -40,7 +40,7 @@ Alternative build options brainstormed before settling on this baseline — Turi
 
 ## Other builds
 
-The [2× Home build](../2x/README.md) (2× RTX 5090, start tonight) and the [8× On-prem build](../8x/README.md) (8× RTX 4090/5090) scale the same idea down and up.
+The [2× 5090](../2x-5090/README.md) (start tonight), the [4× 5090](../4x-5090/README.md), and the [8× 5090](../8x-5090/README.md) scale the same idea down and up.
 
 ## License
 

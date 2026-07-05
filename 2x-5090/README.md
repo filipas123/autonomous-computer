@@ -1,4 +1,4 @@
-# 2× — The Home build
+# 2× 5090 — The Home build
 
 <div align="center"><a href="../README.md">← All builds</a></div>
 
@@ -41,7 +41,7 @@ Both cards detected, full VRAM, full PCIe width — the checklist is in [the set
 
 ## Other builds
 
-Need more? The [4× Team build](../4x/README.md) (4× RTX PRO 6000 Blackwell, 384 GB VRAM) and the [8× On-prem build](../8x/README.md) (8× RTX 4090/5090) scale the same idea up.
+Need more? The [4× 5090](../4x-5090/README.md), the [4× 6000](../4x-6000/README.md) (384 GB VRAM, full precision), and the [8× 5090](../8x-5090/README.md) scale the same idea up.
 
 ## License
 

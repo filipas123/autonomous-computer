@@ -13,16 +13,17 @@ This is an open project. Fork it, change it, build your own — and if you make 
 ## How to submit a change
 
 1. Fork the repo and create a branch.
-2. Make your change. Keep the structure: each build is self-contained in its folder at the repo root (`2x/`, `4x/`, `8x/` — its own `bom/`, `docs/`, `photos/`, `step_models/`, `stl-models/`); the shared software doc is `setup.md`.
+2. Make your change. Keep the structure: each build is self-contained in its folder at the repo root (`2x-5090/`, `4x-5090/`, `4x-6000/`, `8x-5090/` — its own `bom/`, `docs/`, `photos/`, `step_models/`, `stl-models/`); the shared software doc is `setup.md`.
 3. Check your links and image paths resolve (GitHub is case-sensitive).
 4. Open a pull request describing what you changed and why.
 
 ## Repo layout
 
 ```
-2x/         Home build
-4x/         Team build
-8x/         On-prem business build
+2x-5090/    Home build (2x RTX 5090)
+4x-5090/    Team build (4x RTX 5090) — guide in progress
+4x-6000/    Workstation build (4x RTX PRO 6000)
+8x-5090/    On-prem business build (8x RTX 5090)
 setup.md    BIOS, drivers, testing (shared)
 ```
 
