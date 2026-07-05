@@ -19,22 +19,15 @@ Open software lets you run and shape your AI; open hardware lets you build, repa
 - **Hardware — this repo.** Your Personal AI Computer in four sizes, below: every part, every bracket, every BIOS setting, every assembly photo.
 - **Software — your choice.** Run any local AI framework — vLLM, Ollama, llama.cpp — or [Grid](https://github.com/autonomous-ai/autonomous-grid), our local AI orchestrator.
 
-## 2× NVIDIA RTX 5090 — Home
+## 2× NVIDIA RTX 5090
 
-2× RTX 5090. Enough for Llama, Qwen, and DeepSeek with quantization. Run OpenClaw, Hermes Agent, or your own LangChain stack locally.
+The entry-level build, for personal use. Enough for Llama, Qwen, and DeepSeek with quantization — run OpenClaw, Hermes Agent, or your own LangChain stack locally.
 
-| | |
-|:--|:--|
-| GPU | 2× NVIDIA RTX 5090 (21,760 CUDA · 680 Tensor cores each) |
-| VRAM | 64 GB · 3,584 GB/s |
-| FP32 | 419 TFLOPS |
-| CPU | Intel Xeon W5 (ASUS W790 ACE) |
-| System RAM | 96 GB · 89.6 GB/s |
-| Storage | 1 TB NVMe boot · 7.45 GB/s read |
-| PCIe | Gen 5 ×16 per GPU |
-| Networking | 1× 10 GbE + 1× 2.5 GbE |
-| Power | 1,550 W draw · 1,600 W PSU |
-| Size | 12.5″ × 12.5″ × 16″ · 33 lb · housing: print or CNC yourself |
+- **2× NVIDIA RTX 5090** — 64 GB VRAM · 3,584 GB/s · 419 FP32 TFLOPS
+- **Intel Xeon W5** (ASUS W790 ACE) · 96 GB RAM · 1 TB NVMe
+- **PCIe Gen 5 ×16** per GPU · 10 GbE + 2.5 GbE
+- **1,550 W draw** · 1,600 W PSU
+- **12.5″ × 12.5″ × 16″** · 33 lb · print or CNC the housing yourself
 
 <a href="2x-5090/README.md"><img src="2x-5090/photos/gallery/hero.webp" alt="The 2× 5090 build — two RTX 5090s on the open frame"></a>
 
@@ -53,22 +46,15 @@ Open software lets you run and shape your AI; open hardware lets you build, repa
 
 **[Build the 2× 5090 →](2x-5090/README.md)**
 
-## 4× NVIDIA RTX 5090 — Team
+## 4× NVIDIA RTX 5090
 
-4× RTX 5090. Built for larger open models like Kimi, MiniMax, and GLM. No API bills. Low latency. Private data.
+The team build. Larger open models like Kimi, MiniMax, and GLM. No API bills. Low latency. Private data.
 
-| | |
-|:--|:--|
-| GPU | 4× NVIDIA RTX 5090 (21,760 CUDA · 680 Tensor cores each) |
-| VRAM | 128 GB · 7,168 GB/s |
-| FP32 | 838 TFLOPS |
-| CPU | AMD Ryzen Threadripper Pro |
-| System RAM | 96 GB · 89.6 GB/s |
-| Storage | 1 TB NVMe boot · 7.45 GB/s read |
-| PCIe | Gen 5 ×16 per GPU |
-| Networking | 2× 10 GbE · BMC |
-| Power | 2,750 W draw · 4,000 W PSU |
-| Size | 15.5″ × 15.5″ × 16″ · 66 lb · dual-chamber airflow: intake below, GPUs above |
+- **4× NVIDIA RTX 5090** — 128 GB VRAM · 7,168 GB/s · 838 FP32 TFLOPS
+- **AMD Ryzen Threadripper Pro** · 96 GB RAM · 1 TB NVMe
+- **PCIe Gen 5 ×16** per GPU · 2× 10 GbE · BMC
+- **2,750 W draw** · 4,000 W PSU
+- **15.5″ × 15.5″ × 16″** · 66 lb · dual-chamber airflow — intake below, GPUs above
 
 <a href="4x-5090/README.md"><img src="4x-5090/photos/gallery/hero.webp" alt="The 4× 5090 build — airflow through the dual-chamber housing"></a>
 
@@ -87,22 +73,15 @@ Open software lets you run and shape your AI; open hardware lets you build, repa
 
 **[See the 4× 5090 →](4x-5090/README.md)**
 
-## 8× NVIDIA RTX 5090 — On-prem business
+## 8× NVIDIA RTX 5090
 
-8× RTX 5090 on dual EPYC. A local inference box for teams shipping with open models. Develop, serve, fine-tune — the work that should never leave your floor.
+The on-prem build, for business. Develop, serve, and fine-tune with open models — the work that should never leave your floor.
 
-| | |
-|:--|:--|
-| GPU | 8× NVIDIA RTX 5090 (21,760 CUDA · 680 Tensor cores each) |
-| VRAM | 256 GB · 14,336 GB/s |
-| FP32 | 1,676 TFLOPS |
-| CPU | 2× AMD EPYC 9004 (Genoa, ASRock Rack GENOA2D24G-2L+) |
-| System RAM | 192 GB · 179.2 GB/s |
-| Storage | 1 TB NVMe boot · 7.45 GB/s read |
-| PCIe | Gen 5 ×16 per GPU, over MCIO |
-| Networking | 2× 1 GbE · BMC |
-| Power | 5,100 W draw · 8,000 W PSU |
-| Size | 15.5″ × 15.5″ × 24″ · 110 lb · CNC-milled anodized aluminum housing |
+- **8× NVIDIA RTX 5090** — 256 GB VRAM · 14,336 GB/s · 1,676 FP32 TFLOPS
+- **2× AMD EPYC 9004** (ASRock Rack GENOA2D24G-2L+) · 192 GB RAM · 1 TB NVMe
+- **PCIe Gen 5 ×16** per GPU, over MCIO · 2× 1 GbE · BMC
+- **5,100 W draw** · 8,000 W PSU
+- **15.5″ × 15.5″ × 24″** · 110 lb · CNC-milled anodized aluminum housing
 
 <a href="8x-5090/README.md"><img src="8x-5090/photos/gallery/hero.webp" alt="The 8× 5090 build — eight GPUs in the anodized aluminum housing"></a>
 
@@ -121,21 +100,15 @@ Open software lets you run and shape your AI; open hardware lets you build, repa
 
 **[Build the 8× 5090 →](8x-5090/README.md)**
 
-## 4× NVIDIA RTX PRO 6000 — Workstation
+## 4× NVIDIA RTX PRO 6000
 
-4× RTX PRO 6000 Blackwell in a 5U chassis. The full-precision machine: fine-tune and serve the biggest open models without quantizing.
+The workstation build. Fine-tune and serve the biggest open models at full precision, without quantizing.
 
-| | |
-|:--|:--|
-| GPU | 4× NVIDIA RTX PRO 6000 Blackwell (96 GB each) |
-| VRAM | 384 GB |
-| CPU | AMD EPYC 9124 (ASRock Rack TURIN2D24G-2L+, dual SP5) |
-| System RAM | 384 GB DDR5 ECC RDIMM (8× 48 GB) |
-| Storage | 1 TB NVMe (Samsung 990) |
-| PCIe | Gen 5 ×16 per GPU, over MCIO |
-| Networking | BMC (IPMI) |
-| Power | 3× 2,000 W CRPS |
-| Size | 5U rack chassis, off the shelf — no CNC work |
+- **4× NVIDIA RTX PRO 6000 Blackwell** — 384 GB VRAM (96 GB per card)
+- **AMD EPYC 9124** (ASRock Rack TURIN2D24G-2L+) · 384 GB DDR5 ECC · 1 TB NVMe
+- **PCIe Gen 5 ×16** per GPU, over MCIO · BMC
+- **3× 2,000 W** CRPS
+- **5U rack chassis** — off the shelf, no CNC work
 
 <a href="4x-6000/README.md"><img src="4x-6000/build-4x.jpg" alt="The 4× 6000 build — four RTX PRO 6000 Blackwell in the 5U chassis"></a>
 
