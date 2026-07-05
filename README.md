@@ -27,7 +27,7 @@ The entry-level build, for personal use. Enough for Llama, Qwen, and DeepSeek wi
 - **Intel Xeon W5** (ASUS W790 ACE) · 96 GB RAM · 1 TB NVMe
 - **PCIe Gen 5 ×16** per GPU · 10 GbE + 2.5 GbE
 - **1,550 W draw** · 1,600 W PSU
-- **12.5″ × 12.5″ × 16″** · 33 lb · print or CNC the housing yourself
+- **12.5″ × 12.5″ × 16″** · 33 lb
 
 <a href="2x-5090/README.md"><img src="2x-5090/photos/gallery/hero.webp" alt="The 2× 5090 build — two RTX 5090s on the open frame"></a>
 
