@@ -7,9 +7,9 @@ https://github.com/user-attachments/assets/3e410e5d-83f4-4aed-a8b4-2426781f3ebd
 ## Quick start
 
 1. **Pick a build** below by budget and the models you want to run — [2×](2x/README.md) · [4×](4x/README.md) · [8×](8x/README.md).
-2. **Source the parts** from that build's Bill of Materials — [2×](2x/bom/BoM.md) · [4×](4x/bom/bom.md) · [8×](8x/bom/BOM.md).
-3. **Make the housing** — print the STL files or CNC the STEP files — [2×](2x/stl-models) · [8×](8x/stl-models).
-4. **Assemble** — follow the photo-by-photo assembly guide — [2×](2x/docs/Assembly.md) · [4×](4x/docs/assembly.md) · [8×](8x/docs/Assembly.md).
+2. **Source the parts** from that build's Bill of Materials — [2×](2x/bom/bom.md) · [4×](4x/bom/bom.md) · [8×](8x/bom/bom.md).
+3. **Make the housing** — print the STL files or CNC the STEP files — [2×](2x/stl-models) · [8×](8x/step_models). (The 4× uses an off-the-shelf 5U chassis.)
+4. **Assemble** — follow the photo-by-photo assembly guide — [2×](2x/docs/assembly.md) · [4×](4x/docs/assembly.md) · [8×](8x/docs/assembly.md).
 5. **Software** — [BIOS setup](setup.md), [GPU testing](testing.md), and [Grid](https://github.com/autonomous-ai/autonomous-grid).
 
 ## Hardware: Pick your build
@@ -32,6 +32,14 @@ There's a build for every budget and use case. Each is a complete, self-containe
 </td>
 </tr>
 </table>
+
+At a glance:
+
+| Build | GPUs | VRAM | Platform | Power | Housing |
+|:---|:---|:---|:---|:---|:---|
+| [**2× — Home**](2x/README.md) | 2× RTX 5090 | 64 GB | Intel Xeon W5 (ASUS W790 ACE) | 1× 1600 W | 3D-print or CNC it yourself |
+| [**4× — Team**](4x/README.md) | 4× RTX PRO 6000 Blackwell | 384 GB | AMD EPYC 9124 (ASRock Rack TURIN2D24G-2L+) | 3× 2000 W | Off-the-shelf 5U chassis |
+| [**8× — On-prem business**](8x/README.md) | 8× RTX 4090 / 5090 | 192–256 GB | 2× AMD EPYC 9004 (ASRock Rack GENOA2D24G-2L+) | 4× 2000 W | CNC-milled anodized aluminum |
 
 ## Software
 

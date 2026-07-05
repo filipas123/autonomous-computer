@@ -5,7 +5,7 @@
 |  1   | Prepare all components.                                                                          |
 |  2   | Install CPUs into the SP5 sockets on the TURIN2D24G-2L+ motherboard.                             |
 |  3   | Mount the COOLSERVER 2U SP5 S22 heatsinks onto both CPUs.                                        |
-|  4   | Populate all 16 DDR5 ECC RDIMM slots (48 GB each, 384 GB total).                                 |
+|  4   | Populate 8 DDR5 ECC RDIMM slots (48 GB each, 384 GB total) per the board’s 1DPC population guide.                                 |
 |  5   | Install the Samsung 990 Plus NVMe SSD(s) into the M.2 slot(s).                                   |
 |  6   | Seat the motherboard into the 5U chassis and secure with standoffs/screws.                       |
 |  7   | Install PSUs (3 per chassis) and connect to the power board.                                     |

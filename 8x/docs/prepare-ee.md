@@ -1,0 +1,42 @@
+<table>
+    <tr>
+        <td valign="top" align="center" width="50%">
+            <b>1. Motherboard GENOA2D24G-2L+</b><br>
+            <img src="../photos/8gpu/preparing/ee/MB_GENOA2D24G-2L%2B-1(L).jpg" width="400"><br>
+            <b>3. CPU AMD EPYC 9004</b><br>
+            <img src="../photos/8gpu/preparing/ee/CPU.jpg" width="400"><br>
+            <b>5. SSD NVME 1TB</b><br>
+            <img src="../photos/8gpu/preparing/ee/SSD.png" width="400"><br>
+            <b>7. RAM DDR5 48GB</b><br>
+            <img src="../photos/8gpu/preparing/ee/RAM_DDR5.jpg" width="400"><br>
+            <b>9. MCIO Adapter</b><br>
+            <img src="../photos/8gpu/preparing/ee/MCIO_Adapter.png" width="400"><br>
+            <b>11. MCIO cable</b><br>
+            <img src="../photos/8gpu/preparing/ee/MCIO_cable.jpg" width="400"><br>
+            <b>13. Fan</b><br>
+            <img src="../photos/8gpu/preparing/ee/fan.jpg" width="400"><br>
+            <b>15. Motherboard power cable</b><br>
+            <img src="../photos/8gpu/preparing/ee/motherboard_cable.jpg" width="400"><br>
+        </td>
+        <td valign="top" align="center" width="50%">
+            <b>2. PSU board</b><br>
+            <img src="../photos/8gpu/preparing/ee/PSU_board_4.png" width="400"><br>
+            <b>4. CPU heat sink</b><br>
+            <img src="../photos/8gpu/preparing/ee/CPU_heatsink.jpg" width="400"><br>
+            <b>6. SSD heat sink</b><br>
+            <img src="../photos/8gpu/preparing/ee/SSD_heatsink.jpg" width="400"><br>
+            <b>8. PSU</b><br>
+            <img src="../photos/8gpu/preparing/ee/PSU.jpg" width="400"><br>
+            <b>10. Power cord</b><br>
+            <img src="../photos/8gpu/preparing/ee/power_cord.jpg" width="400"><br>
+            <b>12. GPU</b><br>
+            <img src="../photos/8gpu/preparing/ee/GPU.png" width="400"><br>
+            <b>14. Hub fan</b><br>
+            <img src="../photos/8gpu/preparing/ee/hub_fan.jpg" width="400"><br>
+            <b>16. GPU power cable</b><br>
+            <img src="../photos/8gpu/preparing/ee/GPU_cable_power.jpg" width="400"><br>
+        </td>
+    </tr>
+</table>
+
+---
