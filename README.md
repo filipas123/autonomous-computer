@@ -12,7 +12,7 @@ The Personal AI Computer is that machine. The models are good, the GPUs are affo
 
 ## The end-to-end open-source local AI stack
 
-We open-source the whole stack — the hardware and the software:
+Most "open" AI stops at the software — the machine it runs on is still a black box you can't inspect, repair, or rebuild. If any layer is closed, that layer is where your ownership ends. So we open-source the whole stack — the hardware and the software:
 
 - **Hardware — this repo.** Your Personal AI Computer in four sizes, below: every part, every bracket, every BIOS setting, every assembly photo.
 - **Software — your choice.** Run any local AI framework — vLLM, Ollama, llama.cpp — or [Grid](https://github.com/autonomous-ai/autonomous-grid), our local AI orchestrator.
