@@ -1,4 +1,4 @@
-# Build your own Personal AI Computer
+# Time to build your own Personal AI Computer
 
 https://github.com/user-attachments/assets/36f7aa02-42ac-4b35-b757-a5dd3b43ef1a
 
@@ -14,7 +14,7 @@ The Personal AI Computer is that machine. The models are good, the GPUs are affo
 
 ## The end-to-end open-source local AI stack
 
-Most "open" AI stops at the software — the machine it runs on is still a black box you can't inspect, repair, or rebuild. If any layer is closed, that layer is where your ownership ends. So we open-source the whole stack — the hardware and the software:
+Open software lets you run and shape your AI; open hardware lets you build, repair, and improve the machine it runs on. With both in your hands — the code, the CAD, the BOM, the BIOS settings — you can build the whole thing end to end. So we open-source both:
 
 - **Hardware — this repo.** Your Personal AI Computer in four sizes, below: every part, every bracket, every BIOS setting, every assembly photo.
 - **Software — your choice.** Run any local AI framework — vLLM, Ollama, llama.cpp — or [Grid](https://github.com/autonomous-ai/autonomous-grid), our local AI orchestrator.
