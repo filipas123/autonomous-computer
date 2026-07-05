@@ -57,7 +57,7 @@ The team build. Larger open models like Kimi, MiniMax, and GLM. No API bills. Lo
 - **2,750 W draw** · 4,000 W PSU
 - **15.5″ × 15.5″ × 16″** · 66 lb · dual-chamber airflow — intake below, GPUs above
 
-**[See the 4× 5090 →](4x-5090/README.md)**
+**[Build the 4× 5090 →](4x-5090/README.md)**
 
 <a href="4x-5090/README.md"><img src="4x-5090/photos/gallery/hero.webp" alt="The 4× 5090 build — airflow through the dual-chamber housing"></a>
 
