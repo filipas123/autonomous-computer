@@ -13,7 +13,7 @@ The on-prem build, for business: eight GPUs on a dual-EPYC (Genoa) platform in a
 ## Build it
 
 1. **Parts** — the [bill of materials](bom/bom.md).
-2. **Housing** — the [STEP files](step_models) (STL versions in [stl-models](stl-models)); the [housing guide](docs/prepare-me.md) shows the mill → sand-blast → anodize process.
+2. **Housing** — the [STEP files](step_models) (STL versions in [stl-models](stl-models)).
 3. **Lay out the electronics** — the [component checklist](docs/prepare-ee.md), with a photo of every part.
 4. **Assemble** — the [photo-by-photo assembly guide](docs/assembly.md), 39 steps from bare plates to a running machine.
 5. **BIOS, drivers, testing** — the shared [BIOS tuning and GPU testing](../setup.md) guide. Board-specific notes below.
