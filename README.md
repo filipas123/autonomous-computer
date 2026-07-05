@@ -2,7 +2,9 @@ https://github.com/user-attachments/assets/36f7aa02-42ac-4b35-b757-a5dd3b43ef1a
 
 ## The future of AI is local
 
-The models got good. The GPUs got affordable. The only question left is where the intelligence lives — in someone else's cloud, or under your own roof. In 2026, homes and businesses are reaching the same answer: on-prem. Three reasons:
+AI in 2026 looks like computing in 1975: the intelligence lives in a few mainframes, owned by a few companies, and you rent it by the token. Everyone knows how that movie ends. The machine moves onto the desk — and the people who own their machines build everything that comes next.
+
+The Personal AI Computer is that machine. The models are good, the GPUs are affordable, and homes and businesses are reaching the same answer: bring it in-house. Three reasons:
 
 1. **No one can switch you off.** In June 2026 the US government took Fable 5 offline for most of a month and gated GPT-5.6 behind an approved-partner list. Weights on your own disk can't be revoked.
 2. **Your business is their training data.** Every prompt you send OpenAI or Anthropic carries your product, your process, your edge. They will turn your secret sauce into their product.
@@ -10,7 +12,7 @@ The models got good. The GPUs got affordable. The only question left is where th
 
 ## The end-to-end open-source local AI stack
 
-Open software on closed hardware is half an answer — you still can't see, fix, or rebuild the box it runs on, so you're still renting, one layer down. Local AI is only truly yours when the whole stack is open, metal included. So we open-sourced both halves:
+The first personal computers shipped with schematics in the box — and the people who could open the machine built the industry. That's the tradition this repo stands in. Open software on closed hardware is half an answer; a machine is only yours down to the level you can rebuild it. So we open-sourced both halves:
 
 - **Hardware — this repo.** Your Personal AI Computer in four sizes, below: every part, every bracket, every BIOS setting, every assembly photo.
 - **Software — your choice.** Run any local AI framework — vLLM, Ollama, llama.cpp — or [Grid](https://github.com/autonomous-ai/autonomous-grid), our local AI orchestrator.
