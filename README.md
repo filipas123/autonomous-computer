@@ -11,7 +11,7 @@ https://github.com/user-attachments/assets/36f7aa02-42ac-4b35-b757-a5dd3b43ef1a
 We built the whole stack, hardware and software, designed together. Then we open-sourced all of it:
 
 - **Hardware — this repo.** Your Personal AI Computer in three sizes: every part, every bracket, every BIOS setting, every assembly photo.
-- **Software — your choice.** Run any local AI framework — vLLM, Ollama, llama.cpp — or run [Grid](https://github.com/autonomous-ai/autonomous-grid), ours: every machine you own behind one OpenAI-compatible endpoint.
+- **Software — your choice.** Run any local AI framework — vLLM, Ollama, llama.cpp — or [Grid](https://github.com/autonomous-ai/autonomous-grid), our local AI orchestrator.
 
 **Own the means of production.**
 
