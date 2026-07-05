@@ -8,7 +8,7 @@ https://github.com/user-attachments/assets/36f7aa02-42ac-4b35-b757-a5dd3b43ef1a
 2. **Your business is their training data.** Every prompt you send OpenAI or Anthropic carries your product, your process, your edge. They will turn your secret sauce into their product.
 3. **Inference becomes free.** Open weights on a cloud API already cut the bill 20–30×. On your own machine there is no bill at all. No API, no meter.
 
-We built the whole stack, hardware and software, the way Apple does. Then we did what Apple never would — open-sourced it:
+We built the whole stack, hardware and software, designed together. Then we open-sourced all of it:
 
 - **Hardware — this repo.** Your Personal AI Computer in three sizes: every part, every bracket, every BIOS setting, every assembly photo.
 - **Software — your choice.** Run any local AI framework — vLLM, Ollama, llama.cpp — or run [Grid](https://github.com/autonomous-ai/autonomous-grid), ours: every machine you own behind one OpenAI-compatible endpoint.
