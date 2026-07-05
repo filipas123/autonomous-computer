@@ -43,14 +43,6 @@ There's a build for every budget and use case. Each is a complete, self-containe
 </tr>
 </table>
 
-At a glance:
-
-| Build | GPUs | VRAM | Platform | Power | Housing |
-|:---|:---|:---|:---|:---|:---|
-| [**2× — Home**](2x/README.md) | 2× RTX 5090 | 64 GB | Intel Xeon W5 (ASUS W790 ACE) | 1× 1600 W | 3D-print or CNC it yourself |
-| [**4× — Team**](4x/README.md) | 4× RTX PRO 6000 Blackwell | 384 GB | AMD EPYC 9124 (ASRock Rack TURIN2D24G-2L+) | 3× 2000 W | Off-the-shelf 5U chassis |
-| [**8× — On-prem business**](8x/README.md) | 8× RTX 4090 / 5090 | 192–256 GB | 2× AMD EPYC 9004 (ASRock Rack GENOA2D24G-2L+) | 4× 2000 W | CNC-milled anodized aluminum |
-
 ## Software
 
 1. **[BIOS tuning and GPU testing](setup.md)** — multi-GPU BIOS settings, NVIDIA drivers, and confirming every GPU is detected, linked at full PCIe width, and stable under load.
