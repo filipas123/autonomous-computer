@@ -2,7 +2,7 @@ https://github.com/user-attachments/assets/36f7aa02-42ac-4b35-b757-a5dd3b43ef1a
 
 ## The future of AI is local
 
-The models got good. The GPUs got affordable. The only question left is where the intelligence lives — in someone else's cloud, or in your house. Three reasons it should be your house:
+The models got good. The GPUs got affordable. The only question left is where the intelligence lives — in someone else's cloud, or under your own roof. In 2026, homes and businesses are reaching the same answer: on-prem. Three reasons:
 
 1. **No one can switch you off.** In June 2026 the US government took Fable 5 offline for most of a month and gated GPT-5.6 behind an approved-partner list. Weights on your own disk can't be revoked.
 2. **Your business is their training data.** Every prompt you send OpenAI or Anthropic carries your product, your process, your edge. They will turn your secret sauce into their product.
