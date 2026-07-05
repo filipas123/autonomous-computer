@@ -132,7 +132,7 @@ The workstation build — rack-ready for on-prem and the data center. 384 GB of 
 
 ## Software
 
-1. **[BIOS tuning and GPU testing](setup.md)** — multi-GPU BIOS settings, NVIDIA drivers, and confirming every GPU is detected, linked at full PCIe width, and stable under load.
+1. **[BIOS tuning and GPU testing](setup.md)** — after you build the rig, run this to make sure it actually works: BIOS settings for multi-GPU, NVIDIA drivers, then confirm every GPU is detected, linked at full PCIe width, and stable under load.
 
 <img width="2560" height="1441" alt="gpu-testing" src="https://github.com/user-attachments/assets/b54b63bc-4f43-465d-894f-4c8dc9c61a08" />
 
