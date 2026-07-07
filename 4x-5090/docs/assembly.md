@@ -1,6 +1,6 @@
 # Assembly
 
-The 4× uses the **same cube housing as the [2× build](../../2x-5090/README.md)** — print the [STLs](../../2x-5090/stl-models) or CNC the [STEPs](../../2x-5090/step_models) — scaled to four GPUs on a Threadripper PRO board. Step photos are added as the build is documented.
+The 4× has its own cube housing — print the [STLs](../stl-models) or CNC the [STEPs](../step_models) — built around four GPUs on a Threadripper PRO board. Step photos are added as the build is documented.
 
 | Step | Description |
 |:----:|:------------|

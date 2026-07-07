@@ -17,4 +17,4 @@ Quantities are per machine — one 4× RTX 5090 build. Part photos are in the [c
 |  9  | GPU power cable   | 12V-2x6 / 12VHPWR, 600 W rated             |  4  | Cable      | One per GPU                                                       |
 | 10  | Power cord        | Wall cord rated for the PSU                 |  1  | Cable      |                                                                   |
 | 11  | Fan               | Case fan                                    |  4  | Cooling    |                                                                   |
-| 12  | Frame housing     | Full housing set — **same cube as the 2×** |  1  | Housing    | Print the [STLs](../../2x-5090/stl-models) or CNC the [STEPs](../../2x-5090/step_models) |
+| 12  | Frame housing     | Full housing set (printed or CNC)          |  1  | Housing    | Print the [STLs](../stl-models) or CNC the [STEPs](../step_models) |
