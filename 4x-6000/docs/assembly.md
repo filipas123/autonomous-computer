@@ -4,7 +4,7 @@ Order of assembly for one 5U server — the TURIN2D24G-2L+ board, one EPYC 9124,
 
 | Step | Description |
 |:----:|:------------|
-|  1   | Prepare all components — the [electronics checklist](prepare-ee.md) and the [housing prep](prepare-me.md). |
+|  1   | Prepare all components — the [bill of materials](../bom/bom.md) and the [housing prep](prepare-me.md). |
 |  2   | Install the CPU into the SP5 socket on the TURIN2D24G-2L+ motherboard. |
 |  3   | Mount the COOLSERVER 2U SP5 S22 heatsink onto the CPU. |
 |  4   | Populate the 8 DDR5 ECC RDIMMs (48 GB each, 384 GB total), following the board's DIMM population order. |
