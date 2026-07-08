@@ -12,12 +12,11 @@ The server build — rack-ready for on-prem and the data center: four RTX PRO 60
 
 ## Build it
 
-1. **Parts** — the [bill of materials](bom/bom.md).
+1. **Parts** — the [bill of materials](bom/bom.md), with a photo of every part; lay them all out and check them off.
 2. **Housing** — the [5U chassis kit](docs/prepare-me.md) ships complete.
-3. **Lay out the electronics** — every part photographed in the [bill of materials](bom/bom.md).
-4. **Assemble** — the [step-by-step assembly guide](docs/assembly.md), 13 steps from bare chassis to first boot.
-5. **BIOS, drivers, testing** — the shared [BIOS tuning and GPU testing](../setup.md) guide. Board-specific notes below.
-6. **Serve your models** — [Grid](https://github.com/autonomous-ai/autonomous-grid), the open orchestrator for local AI, or any local AI engine: vLLM, Ollama, llama.cpp.
+3. **Assemble** — the [step-by-step assembly guide](docs/assembly.md), 13 steps from bare chassis to first boot.
+4. **BIOS, drivers, testing** — the shared [BIOS tuning and GPU testing](../setup.md) guide. Board-specific notes below.
+5. **Serve your models** — [Grid](https://github.com/autonomous-ai/autonomous-grid), the open orchestrator for local AI, or any local AI engine: vLLM, Ollama, llama.cpp.
 
 <table>
 <tr>
@@ -43,7 +42,7 @@ The server build — rack-ready for on-prem and the data center: four RTX PRO 60
 </tr>
 </table>
 
-## BIOS notes for this board
+## BIOS notes and testing
 
 The TURIN2D24G-2L+ feeds the GPUs over MCIO, so link width is the setting that matters most (the general list is in [the setup guide](../setup.md)):
 
@@ -55,9 +54,7 @@ Advanced -> PCI Subsystems Settings -> Enable Re-size BAR support
 
 Above 4G Decoding is typically enabled by default on this platform — verify it. For exact menu locations, see ASRock Rack's motherboard and BMC manuals for the TURIN2D24G-2L+.
 
-## Testing
-
-Make sure all four cards are detected, report full VRAM, and link at full PCIe width — the checklist is in [the setup guide](../setup.md#gpu-testing).
+Then make sure all four cards are detected, report full VRAM, and link at full PCIe width — the checklist is in [the setup guide](../setup.md#gpu-testing).
 
 ## Serve your models
 
