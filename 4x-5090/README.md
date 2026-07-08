@@ -14,12 +14,11 @@ The team build: four RTX 5090s in a cube housing on an AMD Ryzen Threadripper PR
 
 ## Build it
 
-1. **Parts** — the [bill of materials](bom/bom.md).
+1. **Parts** — the [bill of materials](bom/bom.md), with a [photo of every part](docs/prepare-ee.md); lay them all out and check them off.
 2. **Housing** — the [STL files](stl-models) and the [STEP files](step_models).
-3. **Lay out the electronics** — the [component checklist](docs/prepare-ee.md), with a photo of every part.
-4. **Assemble** — the [step-by-step assembly guide](docs/assembly.md), 23 steps from bare housing to closed box.
-5. **BIOS, drivers, testing** — the shared [BIOS tuning and GPU testing](../setup.md) guide. Board-specific notes below.
-6. **Serve your models** — [Grid](https://github.com/autonomous-ai/autonomous-grid), the open orchestrator for local AI, or any local AI engine: vLLM, Ollama, llama.cpp.
+3. **Assemble** — the [step-by-step assembly guide](docs/assembly.md), 23 steps from bare housing to closed box.
+4. **BIOS, drivers, testing** — the shared [BIOS tuning and GPU testing](../setup.md) guide. Board-specific notes below.
+5. **Serve your models** — [Grid](https://github.com/autonomous-ai/autonomous-grid), the open orchestrator for local AI, or any local AI engine: vLLM, Ollama, llama.cpp.
 
 <table>
 <tr>
@@ -32,7 +31,7 @@ The team build: four RTX 5090s in a cube housing on an AMD Ryzen Threadripper PR
 </tr>
 </table>
 
-## BIOS notes for this board
+## BIOS notes and testing
 
 The 4× runs on an AMD Ryzen Threadripper PRO (WRX90) board. The settings that matter (the general list is in [the setup guide](../setup.md)):
 
@@ -44,9 +43,7 @@ Set every GPU slot to PCIe Gen 5 (with bifurcation as the board requires)
 
 Exact menu paths depend on the motherboard — the board model and manual are being finalized.
 
-## Testing
-
-Make sure all four cards are detected, report full VRAM, and link at full PCIe width — the checklist is in [the setup guide](../setup.md#gpu-testing). A verification screenshot from this build is coming.
+Then make sure all four cards are detected, report full VRAM, and link at full PCIe width — the checklist is in [the setup guide](../setup.md#gpu-testing). A verification screenshot from this build is coming.
 
 ## Serve your models
 
